@@ -378,7 +378,8 @@ h1, h2, h3, h4, h5, h6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: -80px; }
+    margin-top: -80px;
+    pointer-events: none; }
     .intro__img img {
       max-width: 100%;
       -o-object-fit: contain;
@@ -876,6 +877,7 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
         width: 100%;
         border: 1px solid #d3d3d3;
+        border-radius: 0;
         background-color: #fff;
         padding: 17px 19px;
         font-family: "Source Sans Pro", sans-serif;
@@ -1270,6 +1272,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px; }
   .why__text {
     font-size: 12px; }
+  .why__icon img {
+    max-width: 70%; }
   .footer__link {
     font-size: 12px; }
   .footer__copyright {
