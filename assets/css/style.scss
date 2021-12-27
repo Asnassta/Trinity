@@ -78,6 +78,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	text-transform: uppercase;
 	text-align: center;
 	>* {
+		display: block;
 		&:nth-child(2) {
 			display: inline-block;
 			margin-top: 5px;
